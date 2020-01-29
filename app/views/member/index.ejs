@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Index Page</h1>
+        <% for (var i=0; i < members.length; i++){ %>
+            <%= members[i].name %>
+            <%= members[i].nationality %>
+            <%= members[i].dateOfBirth %>
+            <%= members[i].nationalID %>
+            <%= members[i].bloodType %><br>
+        <% } %>
+    </body>
+</html>
